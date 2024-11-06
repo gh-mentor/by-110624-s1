@@ -1,3 +1,9 @@
+/*
+This file is a simple example of how to create a thread in C++ using the std::thread class.
+*/
+
+
+// Include header files support for the std::thread class, input/output streams, and time-related functions.
 #include <iostream>
 #include <thread>
 #include <chrono>
