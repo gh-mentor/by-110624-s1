@@ -1,14 +1,10 @@
-# Welcome to the GitHub Training
+# Welcome to the GitHub Copilot Training
 
 Instructor: Andrew Scoppa
 
 Email: andrew.scoppa@atmosera.com
 
 GH handle:  andrew-scoppa
-
-## Materials
-
-[Copilot Slides](https://github.com/user-attachments/files/17378181/en-v2-github-copilot-developer.pdf)
 
 ## Workshop
 
