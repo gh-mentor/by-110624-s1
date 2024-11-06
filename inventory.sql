@@ -103,6 +103,7 @@ INSERT INTO products (id, name, price, category_id) VALUES
 (1, 'Product 1', 10.00, 1),
 (2, 'Product 2', 20.00, 2),
 (3, 'Product 3', 30.00, 3);
+(4, 'Product 4', 30.00, 3);
 GO
 
 -- Create a view named 'product_list' that displays the following columns
@@ -113,12 +114,6 @@ JOIN categories c ON p.category_id = c.id
 JOIN suppliers s ON c.supplier_id = s.id;
 GO
 
--- Create a stored procedure named 'get_product_list' that returns the product list view
-CREATE PROCEDURE get_product_list AS 
-BEGIN
-    SELECT * FROM product_list;
-END;
-GO
 
 
 
